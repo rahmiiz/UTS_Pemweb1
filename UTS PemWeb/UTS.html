@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Pratikum</title>
+    <link rel="stylesheet" href="UTS1.css">
+
+</head>
+<body>
+    <h2>Registrasi Kendaraan Anda</h2>
+
+    <fieldset>
+
+    <table>
+        <tr>
+            <td>
+                <label for="status">Status :</label>
+            </td>
+
+            <td>
+                <input type="radio" value="Mahasiswa">Mahasiswa
+                <input type="radio" checked="checked" value="Dosen">Dosen
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="nim/nidn">NIM/NIDN :</label>
+            </td>
+
+                <td>
+                    <input type="number" name="nim/nidn" id="nim/nidn">
+                </td>
+            </tr>
+
+        <tr>
+            <td>
+                <label for="namalengkap">Nama Lengkap :</label>
+            </td>
+
+            <td>
+                <input type="text" name="namalengkap" id="namalengkap">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="prodi">Prodi :</label>
+            </td>
+
+            <td>
+                <select name="pilihprodi" id="pilihprodi">
+                    <option value="">Pilih Prodi</option>
+                    <option value="SI">Sistem Informasi</option>
+                    <option value="TI">Teknologi Informatika</option>
+                    <option value="BD">Bisnis Digital</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="jeniskendaraan">Jenis Kendaraan :</label>
+            </td>
+
+            <td>
+                <input type="radio" checked="checked" value="Motor">Motor
+                <input type="radio" value="Mobil">Mobil
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="noPol">NoPol :</label>
+            </td>
+
+            <td>
+                <input type="text" name="noPol" id="noPol">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="merk">Merk :</label>
+            </td>
+
+            <td>
+                <input type="text" name="merk" id="merk">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="uploadSTNK">Upload STNK :</label>
+            </td>
+
+            <td>
+                <input type="file" name="uploadSTNK" id="uploadSTNK">
+            
+                <button type="browse">Browse</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <button type="daftar">Daftar</button>
+            </td>
+        </tr>
+
+        </tr>
+    </table>
+    </fieldset>
+</body>
+
+</html>
